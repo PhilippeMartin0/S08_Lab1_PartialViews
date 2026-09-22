@@ -11,6 +11,8 @@ namespace ZombieParty.Models
         [StringLength(20, MinimumLength = 5)]
         public string Name { get; set; }
 
+        public int Force { get; set; }
+
         [StringLength(255)]
         public string ShortDesc { get; set; }
 
